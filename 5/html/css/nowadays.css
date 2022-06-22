@@ -1,0 +1,25 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+.back{
+    font-style: italic;
+}
+h2{
+    text-align: center;
+}
+ul li:nth-child(odd){
+    background-color: grey;
+    color: black
+}
+.sect li:nth-child(3):hover,.sect li:nth-child(5):hover{
+    cursor: pointer;
+}
+.sect li:nth-child(4){
+    background-color: yellow;
+}
+    

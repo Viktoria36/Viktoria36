@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    font-size: 24px;
+    }
+    
+    p{
+    font-size: 120%;
+    }
+    
+    .link1:link{
+    color: rgb(26, 223, 49);
+    }
+    .link1:visited{
+    color: rgb(226, 113, 47);
+    
+    }
+    .link2:link{
+    color: rgb(212, 0, 255);
+    }
+    .link2:visited{
+    color: rgb(0, 248, 194);
+    }
+    
+    .link3:link{
+    color: rgb(43, 0, 255);
+    }
+    .link3:visited{
+    color: #fff707;
+    }
+    
+    .link4:link{
+    color: rgb(255, 130, 28);
+    }
+    .link4:visited{
+    color: rgb(255, 174, 0);
+    }
+    
+
+
+    
+  @media(min-width:993px)
+  {
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 26px;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+  }
+
+  @media(min-width:769px) and (max-width:992px)
+  {
+    ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr) ;
+        font-size: 26px;
+        text-align: center;
+        list-style: none;
+        padding: 0;
+    }
+
+  }
+
+  @media(max-width:768px)
+  { ul{
+    display: grid;
+    grid-template-columns: repeat(1,1fr) ;
+    font-size: 26px;
+
+    list-style: none;
+    padding: 0;
+}
+}

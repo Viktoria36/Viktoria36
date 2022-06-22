@@ -1,0 +1,200 @@
+h1{
+    text-align: center;
+    font-size: 22px;
+    }
+  
+  .back{
+      font-style: italic;
+    }
+  
+  #top{
+    text-align: center;
+  }
+  
+  section li{
+    list-style: none;
+  }
+  
+  li a:link, li a:visited{
+  text-decoration: none;
+  font-size: 18px;
+  background-color: blue;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(255, 174, 0);
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 1px;
+  }
+  
+  li a:hover{
+  background-color: rgb(255, 38, 0);
+  color: black;
+  }
+  
+  li a:active{
+  background-color: yellow;
+  color: black;
+  }
+  
+  article{
+    font-size: 120%;
+    border: 1px solid black;
+    height: 95% ;
+  }
+  
+  h2{
+  font-size: 140%;
+  
+  }
+  .goup{
+    font-weight: bold;
+  }
+  
+span>p{
+    margin: 0;
+    padding: 0;
+}
+
+  #section1>article{
+
+    background-color: rgb(255, 0, 153);
+    color: rgb(144, 2, 99);
+  }
+
+  #section2>article{
+    background-color: rgb(118, 201, 249);
+    color: rgb(30, 0, 149);  
+}
+
+
+  #section3>article{
+    background-color: rgb(233, 239, 116);
+    color: rgb(142, 135, 0);  
+  }
+
+#section4>article{
+    background-color: rgb(244, 70, 70);
+    color: rgb(133, 0, 0);   
+}
+#section5>article{
+    background-color: rgb(114, 249, 209);
+    color: rgb(0, 136, 95);     
+}
+
+.oo{
+    text-transform: uppercase;
+}
+
+section{
+  padding: 1%;
+}
+
+.all{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media(min-width:993px)
+    { 
+.col-ld-1 {
+    flex: 8.33%;
+}
+
+.col-ld-2 {
+    flex: 16.66%;
+}
+
+.col-ld-3 {
+    flex: 25%;
+}
+
+.col-ld-4 {
+    flex: 33.33%;
+}
+
+.col-ld-5 {
+    flex: 41.66%;
+}
+
+.col-ld-6 {
+    flex: 50%;
+}
+
+.col-ld-7 {
+    flex: 58.33%;
+}
+
+.col-ld-8 {
+    flex: 66.66%;
+}
+
+.col-ld-9 {
+    flex: 75%;
+}
+
+.col-ld-10 {
+    flex: 83.33%;
+}
+
+.col-ld-11 {
+    flex: 91.66%;
+}
+
+.col-ld-12 {
+    flex: 100%;
+}
+}
+
+/*Tablet*/
+@media (min-width: 769px) and (max-width: 992px) {
+
+
+.col-md-1 {
+    flex: 8%;
+}
+
+.col-md-2 {
+    flex: 16%;
+}
+
+.col-md-3 {
+    flex: 24%;
+}
+
+.col-md-4 {
+    flex: 32%;
+}
+
+.col-md-5 {
+    flex: 40%;
+}
+
+.col-md-6 {
+    flex: 48%;
+}
+
+.col-md-7 {
+    flex: 56%;
+}
+
+.col-md-8 {
+    flex: 64%;
+}
+
+.col-md-9 {
+    flex: 72%;
+}
+
+.col-md-10 {
+    flex: 80%;
+}
+
+.col-md-11 {
+    flex: 88%;
+}
+
+.col-md-12 {
+    flex: 96%;
+}
+}

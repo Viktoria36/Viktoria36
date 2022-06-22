@@ -1,0 +1,212 @@
+h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+
+article{
+    display: grid;
+    font-family: system-ui;
+    font-size: 20px;
+    border: 3px solid black;
+    background-color:#d5e8d4;
+}
+
+span{  
+    font-family: system-ui;
+    font-size: 24px; 
+    font-weight:bold;
+   
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    place-self:end;
+    align-self: start;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+
+
+article:nth-of-type(1) span:first-child{
+    background-color:#f0a30a
+}   
+
+article:nth-of-type(2) span:first-child{
+    background-color:#d80073;
+    color: white;
+} 
+article:nth-of-type(3) span:first-child{
+    background-color:#fad9d5;
+} 
+
+@media(min-width:993px)
+    {
+        section{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-column-gap: 30px;
+          margin: 30px;
+          margin-top: 20px;
+        }
+        
+        .cc{
+            padding-left: 5%;
+            padding-right: 4%;
+            margin-top : 0%;
+            margin-bottom : 0%;
+            line-height: 30px; line-height: 30px;
+        }
+        
+        .dd{
+            padding-bottom:0% ;
+            padding-top:0% ;
+            padding-left: 5%;
+            padding-right: 4%;
+            margin-top : 0%;
+            margin-bottom : 0%;
+            line-height: 33px;
+        }
+    
+        .ff{
+            padding-bottom:10%;
+            padding-top:0% ;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-top : 0%;
+            margin-bottom : 0%;
+            line-height: 30px;
+        } 
+
+        a{
+            margin-top: 2%;
+            margin-left: 2%;
+            background-color: #ffcc6e;
+            border: 3px solid black;
+            font-family: system-ui;
+            font-size: 24px;
+            color:crimson;
+            text-decoration: none;
+            padding: 1%;
+            font-weight: bold;   
+            }
+    }
+
+@media(min-width:769px) and (max-width:992px)
+    {
+        .art3{
+            grid-column-start: 1;
+            grid-row-start: 3;
+            grid-column-end: -1;
+        }
+    
+        section{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr) ;
+            margin: 30px;
+            grid-column-gap: 40px;
+            grid-row-gap: 20px;
+        }
+        .cc{
+            padding-right: 4%;
+            padding-left: 5%;
+            margin-bottom : 0%;
+            margin-top : 0%;
+            line-height: 30px;
+        }
+
+
+        .dd{
+            padding-top:0% ;
+            padding-bottom:0% ;
+            padding-right: 4%;
+            padding-left: 5%;
+            margin-bottom : 0%;
+            margin-top : 0%;
+            line-height: 33px;
+        }
+
+        .ff{
+            padding-top:2% ;
+            padding-bottom:4%;
+            padding-right: 5%;
+            padding-left: 5%;
+            margin-bottom : 0%;
+            margin-top : 0%;
+            line-height: 30px;
+        } 
+        a{
+            
+            margin-left: 3%;
+            background-color: #ffcc6e;
+            border: 3px solid black;
+            font-family: system-ui;
+            font-size: 20px;
+            color:crimson;
+            text-decoration: none;
+            padding: 1%;  
+            font-weight: bold;
+        }
+
+    }
+
+    @media(max-width:768px){
+        section{
+            display: grid;
+            grid-template-rows: repeat(3, 1fr) ;
+            grid-row-gap: 30px;
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .cc{
+            padding-left: 5%;
+            padding-right: 4%;
+            margin-top : 0%;
+            margin-bottom : 0%;
+            padding-top: 0;
+            padding-bottom: 0;
+            line-height: 35px;
+        }
+        
+        .dd{
+            padding-top:0% ;
+            padding-bottom:0% ;
+            padding-right: 4%;
+            padding-left: 5%;
+            margin-bottom : 0%;
+            margin-top : 0%;
+            line-height: 33px;
+        }
+
+        .ff{
+            padding-top:4% ;
+            padding-bottom:2%;
+            padding-right: 5%;
+            padding-left: 5%;
+            margin-bottom : 0%;
+            margin-top : 0%;
+            line-height: 30px;
+        }   
+        a{
+            margin-left: 10%;
+            background-color: #ffcc6e;
+            border: 3px solid black;
+            font-family: system-ui;
+            font-size: 22px;
+            color:crimson;
+            text-decoration: none;
+            padding: 1%;  
+            font-weight: bold;
+        }
+    }

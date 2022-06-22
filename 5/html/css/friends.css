@@ -1,0 +1,79 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+.back{
+    font-style: italic;
+}
+h2{
+    text-align: center;
+}
+
+th{
+    padding: 5px 10px;
+    background-color: rgb(24, 6, 162);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+td{
+    padding: 3px 6px;
+    border: 1px solid black;
+}
+
+caption{
+    caption-side: top;
+    text-align: center;
+    font-size: 22px;
+    color:black;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: grey;
+    color: black;
+}
+
+tr td:last-child{
+    text-align: right;
+}
+
+@media(min-width:992px)
+{
+    th{
+        font-size: 130%;
+    }
+    td{
+        font-size: 120%;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+    th{
+        font-size: 120%;
+    }
+
+    td{
+        font-size: 110%;
+    }
+}
+
+@media(max-width:767px)
+{
+    th{
+        font-size: 110%;
+    }
+}

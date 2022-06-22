@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.titlepage h2 {
+    font-size: 40px;
+    color: #090807;
+    line-height: 55px;
+    font-weight: bold;
+    padding: 0;
+    text-transform: uppercase;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.categories {
+    margin-top: 10px;
+    background: #f7f7f7;
+    padding: 40px 0 40px 0;
+}
+
+.our_categories {
+    padding: 50px 0;
+}
+
+.our_categories .categorie_box {
+    text-align: center;
+}
+
+
+.our_categories .categorie_box a {
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #252525;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-top: 40px;
+    transition: ease-in all 0.5s;
+}
+
+.our_categories .categorie_box a:hover {
+    background: #48ca95;
+    transition: ease-in all 0.5s;
+}
+
+.margin_bottom1 {
+    margin-bottom: 90px;
+}
+
+.margin_bottom2 {
+    margin-bottom: 20px;
+}
+
+.card .description{
+    overflow-y: scroll;
+    height: 200px;
+}
+
+#catalog-categories-title {
+    margin-bottom: 20px;
+}
+
+.our_catalog {
+    margin-top: 50px;
+}
+
+.our_catalog_box {
+    margin-bottom: 50px;
+}
+
+.our_catalog_box img {
+    margin-top: 30px;
+}
+
+.card-footer {
+    position: relative;
+}
+
+.price {
+    color: rgb(181, 7, 7);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+.bi {
+    font-size: 20px;
+    color: rgb(181, 7, 7);
+}
+
+.description {
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.card {
+    background-color: rgb(172, 206, 232);
+}
+
+.card img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-header {
+    background-color: cadetblue;
+}
+
+.card-header h3 {
+    font-size: 20px;
+}

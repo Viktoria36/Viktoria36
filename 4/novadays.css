@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    font-size: 22px;
+    }
+    
+    .back{
+        font-style: italic;
+    }
+    
+    h2{
+    text-align: center;
+    }
+    
+    ul li:nth-child(odd){
+    background-color: grey;
+    color: black
+    }
+    
+    section li:nth-child(3):hover,section li:nth-child(5):hover{
+        cursor: pointer;
+    }
+    
+    
+    section li:nth-child(4){
+        background-color: yellow;
+    }
+
+
+
+
+
+    @media(min-width:993px)
+    {.cc
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}}
+
+    @media(min-width:769px) and (max-width:992px)
+    {}
+
+    @media(max-width:768px)
+    {}
+    

@@ -1,0 +1,33 @@
+{"catalog_items":
+    [{  "id":1,
+        "name":"Product 1",
+        "shortname":"A1",
+        "description":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nihil incidunt obcaecati adipisci provident, similique animi consequatur ab minus non! Id aspernatur nam obcaecati voluptatibus suscipit neque esse, minus voluptas.",
+        "price":21
+    },
+    {  "id":1,
+        "name":"Product 2",
+        "shortname":"A2",
+        "description":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nihil incidunt obcaecati adipisci provident, similique animi consequatur ab minus non! Id aspernatur nam obcaecati voluptatibus suscipit neque esse, minus voluptas.",
+        "price":21
+    },
+    {  "id":1,
+        "name":"Product 3",
+        "shortname":"A3",
+        "description":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nihil incidunt obcaecati adipisci provident, similique animi consequatur ab minus non! Id aspernatur nam obcaecati voluptatibus suscipit neque esse, minus voluptas.",
+        "price":21
+    },
+    {  "id":1,
+        "name":"Product 4",
+        "shortname":"A4",
+        "description":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nihil incidunt obcaecati adipisci provident, similique animi consequatur ab minus non! Id aspernatur nam obcaecati voluptatibus suscipit neque esse, minus voluptas.",
+        "price":21
+    },
+    {  "id":1,
+        "name":"Product 5",
+        "shortname":"A5",
+        "description":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nihil incidunt obcaecati adipisci provident, similique animi consequatur ab minus non! Id aspernatur nam obcaecati voluptatibus suscipit neque esse, minus voluptas.",
+        "price":21
+    }
+    ],
+        "category":{"name":"Category A","shortname":"A"}}

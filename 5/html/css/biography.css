@@ -1,0 +1,96 @@
+body {
+    font-family: 'Rubik', sans-serif;
+font-weight: 400;
+}
+
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+
+.back{
+    font-style: italic;
+}
+
+#top{
+    text-align: center;
+}
+
+section li{
+    list-style: none;
+}
+
+li a:link, li a:visited{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: blue;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 174, 0);
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+    }
+
+    li a:hover{
+        background-color: rgb(255, 38, 0);
+        color: black;
+        }
+
+li a:active{
+    background-color: yellow;
+    color: black;
+}
+
+article{
+    font-size: 120%;
+    border: 1px solid black;
+    height: 95% ;
+}
+
+h2{
+    font-size: 140%;
+
+}
+.goup{
+    font-weight: bold;
+
+}
+
+section{
+    margin-bottom: 2%;
+}
+
+#section1>article{
+
+    background-color: rgb(255, 0, 153);
+    color: rgb(144, 2, 99);
+  }
+
+  #section2>article{
+    background-color: rgb(118, 201, 249);
+    color: rgb(30, 0, 149);  
+}
+
+
+  #section3>article{
+    background-color: rgb(233, 239, 116);
+    color: rgb(142, 135, 0);  
+  }
+
+#section4>article{
+    background-color: rgb(244, 70, 70);
+    color: rgb(133, 0, 0);   
+}
+#section5>article{
+    background-color: rgb(114, 249, 209);
+    color: rgb(0, 136, 95);     
+}
+
+.oo{
+    text-transform: uppercase;
+}
+
+article{
+    padding: 1%;
+}

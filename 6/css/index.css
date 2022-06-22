@@ -1,0 +1,72 @@
+body{
+    font-family: system-ui, sans-serif;
+    color:black;
+}
+
+.navbar-brand h1{
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.navbar-brand a {
+    text-decoration: none;
+
+}
+
+.container{
+max-width: none;
+}
+
+#nav-list a{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+
+#header-nav{
+    background-color: #f5f5f5;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.custom-toggler.navbar-toggler{
+    border: 1px solid black;
+}
+
+li a{
+ border-top: 1px black solid;
+}
+h3{
+    font-weight: bold;
+    text-align: center;
+    line-height: normal;
+font-size: 24px;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+.row{
+    text-align: justify;
+}
+#Main-caption{
+    text-align: center;
+font-size: 30px;
+    font-weight: bold;
+
+}
+.all{
+
+    background-color:#d5e8d4;
+}
